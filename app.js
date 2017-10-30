@@ -34,7 +34,7 @@ app.post('/webhook', (req, res) => {
 });
 
 const request = require('request');
-const apiaiApp = require('apiai')("7f15354fd8784fefa82137532014d187");
+const apiaiApp = require('apiai')("2a1b259d1e254187af88eb9ec2d5ce84");
 
 function sendMessage(event) {
   let sender = event.sender.id;
